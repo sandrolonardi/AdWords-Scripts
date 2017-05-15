@@ -8,7 +8,7 @@ A collection of scripts you can use to manage your AdWords account.
 
 *Version 1.0*
 
-Notifies you via email when the spent of any campaing in your account get close or exceeds the campaing budget.
+Notifies you via email when the spent of any campaign in your account get close or exceeds the campaign budget.
 
 You can set both the email address where you want the notifications to go and the spent threshold.
 
