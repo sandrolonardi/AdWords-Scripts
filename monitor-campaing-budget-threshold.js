@@ -2,7 +2,7 @@
  * Monitor Campaign Budget Threshold v1.0
  * Changelog v1.0 - First version
  * Created By: Sandro Lonardi
- * Diviac.com
+ * Lonardi.org
  ********************************/
 function main() {
 
