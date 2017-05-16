@@ -14,7 +14,7 @@ function main() {
   /********************************
    * Set the email address where you want the alerts to go
   ********************************/
-  var alert_email_to = "you@example.com";
+  var alert_email_to = ["you@example.com", "yourfriend@example.com"];
 
   /********************************
    * DO NOT EDIT
