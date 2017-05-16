@@ -12,6 +12,14 @@ Notifies you via email when the spent of any campaign in your account get close 
 
 You can set both the email address where you want the notifications to go and the spent threshold.
 
+### Monitor Keyword Position
+
+*Version 1.0*
+
+Notifies you via email when keyword's position decreases.
+
+You can set both the email address where you want the notifications to go and the change percentage threshold.
+
 
 ## License
 
