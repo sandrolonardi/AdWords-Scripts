@@ -39,7 +39,7 @@ function main() {
     var costs = stats.getCost();
 
     if(costs >= budget * alert_threshold) {
-      alert_body[i] = campaign.getName() + ": " + round(costs / budget * 100) + "% | Cost: " + costs + " | Budget: " + budget;
+      alert_body[i] = campaign.getName() + ": " + Math.round(costs / budget * 100) + "% | Cost: " + costs + " | Budget: " + budget;
       i++;
     }
   }
@@ -57,7 +57,7 @@ function main() {
       content
     );
 
-    Logger.log(alert_body.length + " campaign have spent " + round(costs / budget * 100) + "% of its budget. An email was sent to " + alert_email_to);
+    Logger.log(alert_body.length + " campaign have spent " + Math.round(costs / budget * 100) + "% of its budget. An email was sent to " + alert_email_to);
   } else {
     Logger.log("All campaigns are below the " + alert_threshold * 100 + "% threshold");
   }
